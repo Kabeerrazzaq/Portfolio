@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /* background-color: wheat; */
+    background-color: rgba(128, 128, 128, 0.337);
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 900px;
+   transition: transform 0.3s ease-in;
+ 
+}
+.sidebar nav{
+    padding: 16px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 17px;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black
+}
+.main{
+/* background-color: yellow; */
+width: 90vw;
+padding: 23px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(120, 19, 214); */
+    height: 40vh;
+    width: 70vw;
+    margin: 105px auto;
+    display: flex;
+   justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+}
+.dev{
+font-size: 40px;
+}
+.name{
+font-size: 30px;
+font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.about{
+font-size: 18px;
+}
+.moreabout{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 10px 5px 3px;
+}
+.buttons button{
+/* margin-top: 20px; */
+padding: 8px;
+border-radius: 50px;
+color: white;
+    background: blue;
+    font-weight: bold;
+    font-size: 12px;
+   margin: 6px 1px 0px 0px;
+   cursor: pointer;
+}
+.btn-sn{
+    padding: 8px;
+border-radius: 50px;
+color: white;
+    background: blue;
+    font-weight: bold;
+    font-size: 12px;
+   margin: 18px 1px 0px 0px;
+   cursor: pointer;
+   
+}
+.btn-sn:hover{
+    color: black;
+    background-color: white;
+}
+.buttons button:hover{
+    color: black;
+    background-color: white;
+}
+.devpic img{
+    width: 300px;
+    height: 40vh;
+}
+.contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 145px 34px 0px 34px;
+}
+ /* h1{
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+   padding: 1px 0px 2px 0px;
+} */
+.mb-3{
+    padding: 20px 0px
+}
+.mb-2{
+padding-bottom: 1px;
+}
+#emailHelp{
+    padding-top: 5px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: rgba(29, 3, 99, 0.712);
+    
+}
+#clientemail{
+    display: block;
+    width: 265px;
+    border-radius: 6px;
+    margin: 2px -2px;
+    padding: 4px;
+}
+#clientphone{
+    width: 275px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.form-check{
+padding-top: 8px;
+}
+.btn-primary{
+    margin-top: 15px;
+}
+.form-check-label{
+    font-size: 13px;
+}
+#enquiry{
+    margin-top: -13px;
+}
+.blogI{
+    margin: 23px;
+}
+.blogI h2{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blogI p{
+    font-family: "Source Code Pro", monospace;
+}
+.blog h1{
+   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   margin: 10px 0px -7px 21px;
+}
+.btn-sm{
+    margin: 10px 0px 0px -3px;
+    border-radius: 23px;
+    padding: 6px;
+    color: white;
+    background: blue;
+}
+.btn-sm:hover{
+    color: black;
+    background-color: white;
+}
+.introContainer h1{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    margin: 5px 0px 13px 0px;
+}
+.introContainer p{
+    font-family: "Source Code Pro", monospace;
+    font-size: 13px;
+}
+.introContainer{
+    margin: 20px;
+}
+#ms{
+  margin-top: 10px;
+}
+.skill{
+    width: 225px;
+    height: 6px;
+    background-color: red;
+    
+}
+.skillContainer{
+    margin-top: 25px;
+}
+.skillBox{
+    display: flex;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+}
+#hundred{
+    width: 250px;
+  background-color: red;
+  border: 3px solid black;
+}
+#fivety{
+    width: 150px;
+    background-color: yellow;
+    border: 3px solid black;
+}
+#t5{
+    width: 100px;
+    background-color: blueviolet;
+    border: 3px solid black;
+}
+#ten{
+    width: 90px;
+    background-color: hotpink;
+    border: 3px solid black;
+}
+.sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+.ham{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin : -9px;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+.cross{
+    margin: -48px -49px 5px -49px
+}
+.contact{
+    padding: 76px 480px 193px 113px;
+    margin: 0px 410px 0px -18px
+}
